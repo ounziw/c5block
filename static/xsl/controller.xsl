@@ -35,6 +35,7 @@ class Controller extends BlockController {
         parent::save($args);
 
     }
+}
         </textarea>
     </xsl:template>
 </xsl:stylesheet>
