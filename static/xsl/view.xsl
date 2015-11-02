@@ -5,7 +5,7 @@
         <xsl:for-each select="field"><xsl:if test="@name!='bID'">
             &lt;?php if ($<xsl:value-of select="@name" />) :?&gt;
             &lt;?php echo h($<xsl:value-of select="@name" />) ;?&gt;
-            &lt;?php endif;?&gt;
+            &lt;?php endif; // ($<xsl:value-of select="@name" />) ?&gt;
         </xsl:if></xsl:for-each>
         </textarea>
     </xsl:template>
